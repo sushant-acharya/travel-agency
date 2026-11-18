@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himalayan Horizon | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">🏔️ Himalayan Horizon</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">🏠 Home</a></li>
+        <li><a href="about.html">ℹ️ About Us</a></li>
+        <li><a href="contact.html">📞 Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Explore the Heart of Nepal</h1>
+    <p>Authentic Himalayan treks, wildlife safaris, and cultural journeys.</p>
+    <a href="#packages" class="btn">View Packages</a>
+  </section>
+
+  <main id="packages" class="container">
+    <h2 class="section-title">Popular Nepal Packages</h2>
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterPkg('all', this)">All</button>
+      <button class="filter-btn" onclick="filterPkg('trek', this)">Trekking</button>
+      <button class="filter-btn" onclick="filterPkg('tour', this)">Tours & Safari</button>
+    </div>
+
+    <div class="grid">
+      <article class="card" data-cat="trek">
+        <img src="images.jpg" alt="Everest">
+        <div class="card-body">
+          <h3>1. Everest Base Camp</h3>
+          <p>14-day classic Himalayan trek through Sherpa villages to Kala Patthar (5,545m).</p>
+          <div class="card-footer"><span>$1,350</span><a href="contact.html?pkg=Everest+Base+Camp" class="btn-sm">Book</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-cat="tour">
+        <img src="images (1).jpg" alt="Chitwan">
+        <div class="card-body">
+          <h3>2. Chitwan National Park</h3>
+          <p>4-day jungle jeep safari, canoe ride, and Tharu cultural experience in Terai.</p>
+          <div class="card-footer"><span>$420</span><a href="contact.html?pkg=Chitwan+National+Park" class="btn-sm">Book</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-cat="tour">
+        <img src="images (2).jpg" alt="Pokhara">
+        <div class="card-body">
+          <h3>3. Pokhara Valley</h3>
+          <p>5-day lakeside retreat with Sarangkot sunrise, Phewa boating, and Peace Pagoda.</p>
+          <div class="card-footer"><span>$490</span><a href="contact.html?pkg=Pokhara" class="btn-sm">Book</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-cat="tour">
+        <img src="images (3).jpg" alt="Kathmandu">
+        <div class="card-body">
+          <h3>4. Kathmandu Valley</h3>
+          <p>4-day heritage tour covering Swayambhunath, Pashupatinath, Boudhanath, and Durbar Squares.</p>
+          <div class="card-footer"><span>$380</span><a href="contact.html?pkg=Kathmandu+Valley" class="btn-sm">Book</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-cat="trek">
+        <img src="images (4).jpg" alt="Mustang">
+        <div class="card-body">
+          <h3>5. Upper Mustang</h3>
+          <p>12-day expedition into the walled city of Lo Manthang and ancient Tibetan sky caves.</p>
+          <div class="card-footer"><span>$1,680</span><a href="contact.html?pkg=Mustang" class="btn-sm">Book</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-cat="trek">
+        <img src="images (5).jpg" alt="Annapurna">
+        <div class="card-body">
+          <h3>6. Annapurna Base Camp</h3>
+          <p>11-day scenic trek through rhododendron forests into the Annapurna Sanctuary.</p>
+          <div class="card-footer"><span>$920</span><a href="contact.html?pkg=Annapurna+Base+Camp" class="btn-sm">Book</a></div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer><p>&copy; 2026 Himalayan Horizon Travels, Thamel, Kathmandu, Nepal.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

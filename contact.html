@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himalayan Horizon | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">🏔️ Himalayan Horizon</a>
+      <ul class="nav-links">
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="about.html">ℹ️ About Us</a></li>
+        <li><a href="contact.html" class="active">📞 Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2 class="section-title">Book a Trip or Contact Us</h2>
+    <div class="contact-grid">
+      <div class="info-box">
+        <h3>Kathmandu Head Office</h3>
+        <p>📍 Thamel Marg, Kathmandu 44600, Nepal</p>
+        <p>📞 +977-1-4700123</p>
+        <p>✉️ info@himalayanhorizon.com.np</p>
+        <p>🕒 Sun–Fri: 9:00 AM – 6:00 PM</p>
+      </div>
+
+      <form id="bookingForm" class="contact-form">
+        <input type="text" id="name" placeholder="Full Name *" required>
+        <input type="email" id="email" placeholder="Email Address *" required>
+        <select id="packageSelect">
+          <option value="">Select a Package (Optional)</option>
+          <option value="Everest Base Camp">1. Everest Base Camp</option>
+          <option value="Chitwan National Park">2. Chitwan National Park</option>
+          <option value="Pokhara">3. Pokhara Valley</option>
+          <option value="Kathmandu Valley">4. Kathmandu Valley</option>
+          <option value="Mustang">5. Upper Mustang</option>
+          <option value="Annapurna Base Camp">6. Annapurna Base Camp</option>
+        </select>
+        <textarea id="message" rows="4" placeholder="Travel dates, group size, or questions *" required></textarea>
+        <button type="submit" class="btn">Send Inquiry</button>
+        <p id="formMsg"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer><p>&copy; 2026 Himalayan Horizon Travels, Thamel, Kathmandu, Nepal.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
